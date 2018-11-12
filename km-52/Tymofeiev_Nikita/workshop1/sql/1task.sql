@@ -1,0 +1,1 @@
+insert into student (group_id,st_code,user_id_code) VALUES ('KM-52',10742244,5143174666)
