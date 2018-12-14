@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>subject</title>
+
+</head>
+
+<body>
+
+    <form action = "/api" method = "POST" id="subj_update">
+
+         <p>Subj_code <input type = "text" name = "subj_code" value="{{subj.get('subj_code')}}"/></p>
+
+         <p>Subj_name <input type = "text" name = "subj_name" value="{{subj.get('subj_name')}}"/></p>
+
+
+     </form>
+
+    <button type="submit" form="subj_update" name="action" value="subj_update">Submit</button>
+
+</body>
+
+</html>

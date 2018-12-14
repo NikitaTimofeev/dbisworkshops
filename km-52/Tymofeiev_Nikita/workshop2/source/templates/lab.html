@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>car</title>
+
+</head>
+
+<body>
+
+    <form action = "/api" method = "POST" id="lab_update">
+
+         <p>Lab id <input type = "text" name = "lab_id" value="{{lab.get('lab_id')}}"/></p>
+
+         <p>lab name <input type = "text" name = "lab_name" value="{{lab.get('lab_name')}}"/></p>
+
+         <p>subject code <input type = "text" name = "subj_code" value="{{lab.get('subj_code')}}"/></p>
+
+     </form>
+
+    <button type="submit" form="lab_update" name="action" value="lab_update">Submit</button>
+
+</body>
+
+</html>

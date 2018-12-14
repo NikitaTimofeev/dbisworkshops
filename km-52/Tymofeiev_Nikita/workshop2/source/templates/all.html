@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>all</title>
+
+</head>
+
+<body>
+
+<h3>Lab</h3>
+
+<table>
+
+    {% for key, val in lab.items() %}
+    <tr>
+
+        <td> {{ key }}</td>
+
+        <td> {{ val }}</td>
+
+    </tr>
+    {% endfor %}
+
+</table>
+<h3>Subject</h3>
+<table>
+    {% for key, val in subj.items() %}
+    <tr>
+
+        <td> {{ key }}</td>
+
+        <td> {{ val }}</td>
+
+    </tr>
+
+    {% endfor %}
+
+</table>
+
+</body>
+
+</html>
